@@ -168,21 +168,21 @@ footer{position:relative;z-index:2;text-align:center;padding:50px 20px 70px;font
   <article class="carta">
     <p>Lavynia,</p>
     <p>eu sei que hoje o dia não está fácil e que seu coração está pesado. Eu queria poder pegar toda essa tristeza e carregar no meu bolso, mas, já que não dá, fiz esse site pra lembrar você de uma coisa: você não está sozinha.</p>
-    <p>Você é a pessoa que me faz rir sem esforço, que deixa qualquer dia cinza mais colorido e que transforma até uma sala de aula num lugar bonito. Cada foto aqui guarda um pedacinho do que a gente é.</p>
-    <p>Pode chorar, pode ficar quieta, pode reclamar, pode ficar brava (você fica linda até assim). Eu fico do seu lado em todas. E quando passar, eu vou estar aqui pra te fazer rir de novo com mais uma cantada horrível.</p>
+    <p>Você é a pessoa que me faz rir sem esforço, que deixa qualquer dia ruim mais feliz e que transforma até o beco que nos se beija bonito. Cada foto nossa guarda uma lembrança do que a gente é.</p>
+    <p>Pode chorar, pode ficar quieta, pode reclamar, pode ficar brava (você fica linda até fazendo careta quando caga). Eu fico com vc pra tudo. E quando passar, eu vou estar aqui pra te fazer rir de novo com mais uma cantada ruim minha.</p>
     <p>Eu te amo hoje, amanhã e em todos os dias que ainda vamos viver.</p>
-    <p class="assinatura">Com todo o meu amor,<br>Erik 💖</p>
+    <p class="assinatura">Com todo o meu amor,<br>Erik 30cm💖</p>
   </article>
 </section>
 
 <!-- FINAL -->
 <section class="final">
   <div class="titulo-secao"><p>última coisa, prometo</p><h3>Se você ainda estiver meio triste...</h3></div>
-  <button class="botao" id="chuva">Clique aqui, é um abraço virtual 🤗</button>
-  <small>(pode clicar quantas vezes precisar)</small>
+  <button class="botao" id="chuva">Clique aqui, e sinta-se abraçada kkkk</button>
+  <small>(po clicar ate enjoar do meu abraço online)</small>
 </section>
 
-<footer>Feito com amor por Erik, só pra Lavynia 💕<br><span id="ano"></span></footer>
+<footer>Feito com amor por Erik, só pra Lavynia linda 💕<br><span id="ano"></span></footer>
 
 <div id="lightbox" role="dialog" aria-label="Foto ampliada"><button class="fechar" aria-label="Fechar">✕</button><img alt=""></div>
 
@@ -213,9 +213,9 @@ const FOTOS = [
 
 const FRASES = ["Eu te amo mais do que ontem...","e muito menos do que amanhã.","Esse site é todo seu 💕","Você é o meu lugar favorito."];
 const MOTIVOS = [
- ["😂","Seu jeito de rir que me contagia"],["🌟","Você é mais forte do que imagina"],["🤗","Seus abraços consertam o meu dia"],
- ["💄","Você fica linda de batom vermelho (e sem)"],["🎶","Você trouxe trilha sonora pra minha vida"],["🧠","Você é inteligente demais"],
- ["😛","Você é a rainha das caretas"],["🫶","Você me faz querer ser alguém melhor"]
+ ["😂","Seu sorriso me contagia"],["🌟","Você é mais forte do que imagina"],["🤗","Seus abraços melhoram meu dia"],
+ ["💄","Você fica linda de batom vermelho (e fica linda sem ele tmb)"],["🎶","TE VIVOO"],["🧠","Você é inteligente de mais nu"],
+ ["😛","Você fica linda ate fazendo careta"],["🫶","Você me faz querer ser alguém melhor"]
 ];
 
 const $ = s => document.querySelector(s);
@@ -229,7 +229,7 @@ FOTOS.forEach((f,i)=>{
    <div class="texto-caixa">
      <span class="selo-brega">cantada nº ${i+1}</span>
      <p class="cantada">${f.cantada}</p>
-     ${f.msg?`<button class="msg" aria-expanded="false">💌 Mensagem do Erik</button><p class="carinho">${f.msg}</p>`:""}
+     ${f.msg?`<button class="msg" aria-expanded="false">💌 Mensagem do lindo do erik</button><p class="carinho">${f.msg}</p>`:""}
    </div>`;
   lista.appendChild(c);
 });
